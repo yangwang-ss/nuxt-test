@@ -35,7 +35,7 @@ export default {
   modules: [
     '@nuxtjs/axios'
   ],
-  performance: {
+  resourceHints: {
     prefetch: false
   },
 // asios:{
