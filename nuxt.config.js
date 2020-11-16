@@ -56,6 +56,10 @@ export default {
    
   },
   generate:{
-    dir:'docs'
+    dir:'docs',
+    subFolders:false
+  },
+  router:{
+    base:'/nuxt-test'
   }
 }
