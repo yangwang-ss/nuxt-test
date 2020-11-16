@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{252:function(n,t,e){"use strict";e.r(t);var o={components:{},data:function(){return{}},methods:{},mounted:function(){}},c=e(22),component=Object(c.a)(o,(function(){var n=this.$createElement;return(this._self._c||n)("div",{},[this._v("常见问题")])}),[],!1,null,"498ec3d8",null);t.default=component.exports}}]);
