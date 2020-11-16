@@ -35,8 +35,8 @@ export default {
   modules: [
     '@nuxtjs/axios'
   ],
-  resourceHints: {
-    prefetch: false
+  render: {
+    resourceHints: false
   },
 // asios:{
 // baseURL:'',//设置统一的基础url,线上环境关闭代理使用它
