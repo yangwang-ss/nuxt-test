@@ -87,6 +87,7 @@
             <p class="bottom-text"> 《云与海》王巨星 （阿yueyue）</p>
           </li>
         </ul>
+        
       </div>
       <div class="right-wrap">
         <div class="login-box">
@@ -110,24 +111,7 @@ export default {
  let res = await $axios.get(`https://api.imjad.cn/cloudmusic/`,{
       params:data
   }) 
-  let res2 = await $axios.get(`https://api.imjad.cn/cloudmusic/`,{
-      params:data
-  }) 
-  let res3 = await $axios.get(`https://api.imjad.cn/cloudmusic/`,{
-      params:data
-  }) 
-  let res4 = await $axios.get(`https://api.imjad.cn/cloudmusic/`,{
-      params:data
-  }) 
-  let res5 = await $axios.get(`https://api.imjad.cn/cloudmusic/`,{
-      params:data
-  }) 
-  let res6 = await $axios.get(`https://api.imjad.cn/cloudmusic/`,{
-      params:data
-  }) 
-  let res7 = await $axios.get(`https://api.imjad.cn/cloudmusic/`,{
-      params:data
-  }) 
+
   return {result:res.data.data}
  },
   components: {},

@@ -35,7 +35,9 @@ export default {
   modules: [
     '@nuxtjs/axios'
   ],
- 
+  performance: {
+    prefetch: false
+  },
 // asios:{
 // baseURL:'',//设置统一的基础url,线上环境关闭代理使用它
 // proxy:true,
